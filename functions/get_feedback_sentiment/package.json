@@ -1,0 +1,10 @@
+{
+	"name": "get_feedback_sentiment",
+	"version": "1.0.0",
+	"main": "getFeedback.js",
+	"author": "shankarr+1002@zohocorp.com",
+	"dependencies": {
+		"axios": "^0.24.0",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "creator_catalyst_connection_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "shankarr+1002@zohocorp.com",
+	"dependencies": {
+		"axios": "^0.23.0",
+		"fs": "^0.0.1-security",
+		"path": "^0.12.7",
+		"zcatalyst-sdk-node": "^2.0.1"
+	}
+}

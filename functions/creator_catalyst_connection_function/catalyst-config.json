@@ -1,0 +1,10 @@
+{
+    "deployment": {
+        "name": "creator_catalyst_connection_function",
+        "stack": "node14",
+        "type": "basicio"
+    },
+    "execution": {
+        "main": "processFSFile.js"
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"name": "getmovietrailer",
+	"version": "1.0.0",
+	"main": "getMovieTrailer.js",
+	"author": "shankarr+1002@zohocorp.com",
+	"dependencies": {
+		"movie-trailer": "^2.1.0",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

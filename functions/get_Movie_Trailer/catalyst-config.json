@@ -1,0 +1,10 @@
+{
+    "deployment": {
+        "name": "get_Movie_Trailer",
+        "stack": "node14",
+        "type": "basicio"
+    },
+    "execution": {
+        "main": "getMovieTrailer.js"
+    }
+}

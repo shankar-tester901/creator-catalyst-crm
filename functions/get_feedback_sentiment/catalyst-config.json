@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "get_feedback_sentiment",
+		"stack": "node14",
+		"type": "basicio"
+	},
+	"execution": {
+		"main": "getFeedback.js"
+	}
+}

@@ -1,0 +1,116 @@
+[debug] [2021-11-03T08:36:21.051Z] : 
+[debug] [2021-11-03T08:36:21.052Z] : ----------------------------------------------------------------------
+[debug] [2021-11-03T08:36:21.052Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst functions:shell
+[debug] [2021-11-03T08:36:21.052Z] : CLI Version:  1.9.1
+[debug] [2021-11-03T08:36:21.052Z] : Platform:     darwin
+[debug] [2021-11-03T08:36:21.052Z] : Node Version: v16.4.0
+[debug] [2021-11-03T08:36:21.060Z] : Time:         Wed Nov 03 2021 14:06:21 GMT+0530 (India Standard Time)
+[debug] [2021-11-03T08:36:21.060Z] : ----------------------------------------------------------------------
+[debug] [2021-11-03T08:36:21.060Z] : 
+[debug] [2021-11-03T08:36:21.977Z] : > authorizing via signed-in user option
+[debug] [2021-11-03T08:36:21.977Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE"]
+[debug] [2021-11-03T08:36:21.986Z] : > refreshing access token <
+[debug] [2021-11-03T08:36:21.987Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2021-11-03T08:36:22.918Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 03 Nov 2021 08:36:23 GMT","content-type":"application/json;charset=UTF-8","content-length":"169","connection":"close","set-cookie":["b266a5bf57=dcb92d0f99dd7421201f8dc746d54606; Path=/","iamcsr=e7c4440c-7fd0-468b-acff-10e8295a5146;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e7c4440c-7fd0-468b-acff-10e8295a5146;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2021-11-03T08:36:22.955Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/1788000000855001 
+
+[debug] [2021-11-03T08:36:23.872Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 03 Nov 2021 08:36:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=014ce485bf2cf2299de0faf2fad1caf1; Path=/","ZD_CSRF_TOKEN=850144ba-e7c9-408d-b653-5f67b5ac96f1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=850144ba-e7c9-408d-b653-5f67b5ac96f1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2021-11-03T08:36:23.874Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/1788000000855001/environment 
+
+[debug] [2021-11-03T08:36:24.667Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 03 Nov 2021 08:36:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=12c3de71-0a68-47ef-961f-d4f1ec9ecada;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=12c3de71-0a68-47ef-961f-d4f1ec9ecada;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2021-11-03T08:36:24.856Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/1788000000855001/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2021-11-03T08:36:24.857Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/get-details 
+Query params: {"feature_name":"runtime"}
+
+[debug] [2021-11-03T08:36:25.653Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 03 Nov 2021 08:36:25 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=7e73255b-7f93-43db-ab81-5ff1c46025a3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7e73255b-7f93-43db-ab81-5ff1c46025a3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2021-11-03T08:36:25.691Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 03 Nov 2021 08:36:25 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=a5d5474f-7527-4958-bcb5-421e2f95a681;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a5d5474f-7527-4958-bcb5-421e2f95a681;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2021-11-03T08:36:25.696Z] : unknown eol undefined hence skipping check
+[debug] [2021-11-03T08:36:25.696Z] : unknown eol undefined hence skipping check
+[debug] [2021-11-03T08:36:25.696Z] : unknown eol undefined hence skipping check
+[info] [2021-11-03T08:36:33.961Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"arti@artworks.com","MovieName":"\"Superman\"","Feedback":"\"It has been a great experience watching this movie\""}}}
+
+[info] [2021-11-03T08:36:33.980Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"barti@dplol.com","MovieName":"\"Ice Age\"","Feedback":"\"While it was a good experience, it was a bit too long\""}}}
+
+[info] [2021-11-03T08:36:33.982Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"kalakrithi@deziremore.net","MovieName":"\"365 Days\"","Feedback":"\"Exhilarating experience\""}}}
+
+[info] [2021-11-03T08:36:33.983Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"late@peak.com","MovieName":"\"Tenet\"","Feedback":"\"Nightmarishly bad movie this\""}}}
+
+[info] [2021-11-03T08:36:33.984Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"early@ditut.com","MovieName":"\"Greyhound\"","Feedback":"\"We highly recommend watching this\""}}}
+
+[info] [2021-11-03T08:36:33.985Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"pearly@brw.com","MovieName":"\"The Invisible Man\"","Feedback":"\"Was not a great experience here\""}}}
+
+[info] [2021-11-03T08:36:33.986Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"hidenet@badta.com","MovieName":"\"Devil Time\"","Feedback":"\"Think twice or even more before thinking of watching this\""}}}
+
+[info] [2021-11-03T08:36:33.987Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"boske@giva.com","MovieName":"\"Wonder Woman\"","Feedback":"\"Wonderful direction with a great eye for detail\""}}}
+
+[info] [2021-11-03T08:36:33.989Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"repeter@workad.com","MovieName":"\"Unhinged\"","Feedback":"\"Wont come back again even if I am paid for it\""}}}
+
+[info] [2021-11-03T08:36:33.990Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"suans@kars.com","MovieName":"\"Ava\"","Feedback":"\"Great movie .. value for money\""}}}
+
+[info] [2021-11-03T08:36:33.992Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"susan@kripa.com","MovieName":"\"Jungle Book\"","Feedback":"\"Where do I begin to complain!\""}}}
+
+[info] [2021-11-03T08:36:33.993Z] : {"method":"post","url":"https://creator.zoho.com/api/v2/shankarr1002_zohocorp/customer-feedbacks/form/Feedbacks","headers":{"Authorization":"Zoho-oauthtoken 1000.576e07fe6a3cb16cfa92e331514f0760.c6d97230ee793d01e3fc97f5dba3fa34","Content-Type":"application/json"},"data":{"data":{"Email":"wyatt@jhandartworks.com","MovieName":"\"Project Power\"","Feedback":"\"It has been a great experience! \""}}}
+
+[info] [2021-11-03T08:37:06.244Z] :  record added to creator 
+
+[info] [2021-11-03T08:37:06.244Z] : record added to Creator
+
+[info] [2021-11-03T08:37:11.130Z] :  record added to creator 
+record added to Creator
+
+[info] [2021-11-03T08:37:11.131Z] :  record added to creator 
+record added to Creator
+
+[info] [2021-11-03T08:37:11.132Z] :  record added to creator 
+
+[info] [2021-11-03T08:37:11.132Z] : record added to Creator
+
+[info] [2021-11-03T08:37:14.077Z] :  record added to creator 
+
+[info] [2021-11-03T08:37:14.077Z] : record added to Creator
+
+[info] [2021-11-03T08:37:14.083Z] :  record added to creator 
+record added to Creator
+
+[info] [2021-11-03T08:37:14.290Z] :  record added to creator 
+
+[info] [2021-11-03T08:37:14.293Z] : record added to Creator
+
+[info] [2021-11-03T08:37:14.296Z] :  record added to creator 
+record added to Creator
+
+[info] [2021-11-03T08:37:14.300Z] :  record added to creator 
+
+[info] [2021-11-03T08:37:14.301Z] : record added to Creator
+
+[info] [2021-11-03T08:37:14.307Z] :  record added to creator 
+
+[info] [2021-11-03T08:37:14.308Z] : record added to Creator
+
+[info] [2021-11-03T08:37:14.889Z] :  record added to creator 
+record added to Creator
+
+[info] [2021-11-03T08:37:15.094Z] :  record added to creator 
+
+[info] [2021-11-03T08:37:15.094Z] : record added to Creator
+
+[info] [2021-11-03T08:37:15.107Z] : [cli] Function execution complete
+[info] [2021-11-03T08:37:15.107Z] : 
+[info] [2021-11-03T08:37:15.108Z] : [response]
+[info] [2021-11-03T08:37:15.109Z] : 
+[info] [2021-11-03T08:37:15.109Z] : [status]
+[info] [2021-11-03T08:37:15.109Z] : 200
